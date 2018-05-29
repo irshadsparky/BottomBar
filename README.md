@@ -1,37 +1,14 @@
 # BottomBar
-<img src="https://raw.githubusercontent.com/roughike/BottomBar/master/scrolling_demo.gif" width="30%" /> <img src="https://raw.githubusercontent.com/roughike/BottomBar/master/demo_shifting.gif" width="30%" /> <img src="https://raw.githubusercontent.com/roughike/BottomBar/master/screenshot_tablet.png" width="33%" /> 
-
-**[How to contribute](https://github.com/roughike/BottomBar/blob/master/README.md#contributions)**
-
-[Common problems and solutions](https://github.com/roughike/BottomBar/blob/master/README.md#common-problems-and-solutions)
-
-[Changelog](https://github.com/roughike/BottomBar/blob/master/CHANGELOG.md)
-
-## What?
-
-A custom view component that mimics the new [Material Design Bottom Navigation pattern](https://www.google.com/design/spec/components/bottom-navigation.html).
-
-## Does it work on my Grandpa Gary's HTC Dream?
-
-Nope. The current minSDK version is **API level 11 (Honeycomb).**
-
-Your uncle Bob's Galaxy S Mini will probably be supported in the future though. 
 
 ## Gimme that Gradle sweetness, pls?
 
 ```groovy
-compile 'com.roughike:bottom-bar:1.3.9'
+implementation 'com.github.irshadsparky:BottomBar:master-SNAPSHOT'
+
+maven { url "https://jitpack.io" }
 ```
 
-**Maven:**
-```xml
-<dependency>
-  <groupId>com.roughike</groupId>
-  <artifactId>bottom-bar</artifactId>
-  <version>1.3.9</version>
-  <type>pom</type>
-</dependency>
-```
+
 
 ## How?
 
@@ -279,7 +256,7 @@ When creating pull requests, **more is more:** I'd like to see ten small pull re
 
 ```
 BottomBar library for Android
-Copyright (c) 2016 Iiro Krankka (http://github.com/roughike).
+Copyright (c) 2016 Mohammd Irshad Sheikh (https://github.com/irshadsparky).
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
